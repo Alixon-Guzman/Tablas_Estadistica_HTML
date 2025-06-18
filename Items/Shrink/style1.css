@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 300px;
+    height: 400px;
+    outline: 1PX rgb(56, 11, 221) solid;
+    
+
+}
+
+.item{
+    outline: 1px black solid;
+    flex-basis: 100px;
+    height: 100px;
+
+
+}
+
+
+.item:nth-child(1){
+    background-color: rgb(84, 238, 12);
+    /* flex-shrink: defecto a 1 */
+    /* flex-shrink: 1; */
+    /* 
+    flex-grow: ;
+    flex-shrink: ;
+    flex-basis: ; 
+    */
+    flex-shrink: 2;
+  
+   
+}
+
+
+.item:nth-child(2){
+    background-color: rgb(18, 230, 201);
+    flex-shrink: 0.5;
+   
+   
+}
+
+
+.item:nth-child(3){
+    background-color:rgb(10, 87, 231);
+    flex-shrink: 3;
+   
+}
+
+
+.item:nth-child(4){
+    background-color: rgb(187, 124, 223);
+    flex-shrink: 1;
+   
+}
+
+
+
+
+
+

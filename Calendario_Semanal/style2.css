@@ -1,0 +1,1165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.body{
+
+    font-family: sans-serif;
+    padding: 50px;
+    background-color: antiquewhite;
+
+}
+
+
+.calendar-container{
+    display: flex;
+    height: 900px;
+    border: 1px solid rgb(243, 80, 229);
+    background-color: rgb(236, 233, 233);
+}
+
+
+
+.time-bar{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(243, 80, 229);
+    padding-top: 40px ;
+}
+
+/* Selector o (span) es hijo directo de time-bar */
+
+.time-bar > span{
+    flex-grow: 1;
+    padding-left: 50px;
+    padding-top: 30px;
+    border-bottom: 1px solid rgb(243, 80, 229);
+    font-size: 12px;
+    color: black;
+}
+
+.Week_semana{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.Day-column{
+    flex-grow: 1;
+    display: flex;
+    /* border: 1px solid gray; */
+    flex-direction: column;
+    border-right: 1px solid rgb(243, 80, 229);
+}
+
+.Day-header{
+    color: black;
+    height: 40px;
+    background-color: rgb(241, 215, 243);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.Day-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+/* DIA LUNES  */
+
+.Actividad1{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.siete{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 70px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.ocho{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 140px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.nueve{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 205px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.diez{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 270px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.once{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 335px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.doce{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 400px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.una{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 464px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.dos{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 527px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+.tres{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 590px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.cuatro{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 656px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.cinco{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 720px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.seis{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 790px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+
+
+/* DIA MARTESSS */
+
+
+.Actividad2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.siete_2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 70px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.ocho_2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 140px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.nueve_2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 205px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.diez_2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 270px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.once_2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 335px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.doce_2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 400px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+.una_2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 464px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.dos_2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 527px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+.tres_2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 590px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.cuatro_2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 656px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.cinco_2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 720px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.seis_2{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 790px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+
+/* DIA MIERCOLES  */
+.Actividad3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.siete_3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 70px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.ocho_3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 140px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.nueve_3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 205px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.diez_3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 270px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.once_3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 335px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.doce_3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 400px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+.una_3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 464px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.dos_3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 527px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+.tres_3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 590px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.cuatro_3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 656px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.cinco_3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 720px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.seis_3{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 790px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+
+/* DIA JUEVES */
+
+.Actividad4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.siete_4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 70px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.ocho_4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 140px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.nueve_4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 205px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.diez_4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 270px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.once_4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 335px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.doce_4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 400px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+.una_4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 464px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.dos_4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 527px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+.tres_4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 590px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.cuatro_4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 656px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.cinco_4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 720px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.seis_4{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 790px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+
+/* DIA JUEVES */
+
+.Actividad5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.siete_5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 70px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.ocho_5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 140px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.nueve_5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 205px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.diez_5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 270px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.once_5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 335px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.doce_5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 400px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+.una_5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 464px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.dos_5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 527px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+.tres_5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 590px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.cuatro_5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 656px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.cinco_5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 720px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.seis_5{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 790px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+
+/* DIA SABADO*/
+
+.Actividad6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.siete_6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 70px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.ocho_6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 140px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.nueve_6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 205px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.diez_6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 270px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.once_6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 335px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.doce_6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 400px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+.una_6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 464px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.dos_6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 527px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+.tres_6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 590px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.cuatro_6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 656px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.cinco_6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 720px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
+
+.seis_6{
+    position: absolute;
+    background-color: rgb(240, 206, 237);
+    color: rgb(133, 6, 126);
+    border-radius: 15px;
+    height: 60px;
+    border: 1px solid rgb(211, 65, 199);
+    font-size: 17px;
+    top: 790px;
+    left: 20px ;
+    padding-top:10px ;
+    text-align: center;
+}
